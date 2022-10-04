@@ -31,7 +31,7 @@
 .form {
   display: flex;
   flex-wrap: wrap;
-  background-color: #4f4f4f;
+  background-color: blue;
   color: blanchedalmond;
   flex-basis: 1 1;
   width: 500px;
