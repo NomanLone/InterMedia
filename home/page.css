@@ -1,0 +1,121 @@
+* {
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0 32px;
+
+}
+
+.nav {
+  display: none;
+  font-size: 150%;
+  padding: 10px;
+
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container .flex-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.example-image{
+  margin-bottom: 20px;
+  max-width:100%;
+  max-height:100%;
+}
+.room-no{
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.card__footer {
+  align-self: flex-start;
+  margin-top: 24px;
+}
+
+.book {
+  height: 32px;
+  background-color: #6FB554;
+  border-radius: 4px;
+  border: none;
+  color: #eee;
+  padding: 0 12px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.nav li {
+  text-align: center;
+  flex: 1 1;
+  color: blue;
+}
+
+#nav-toggle {
+  visibility: hidden;
+}
+
+#nav-toggle:checked + .nav {
+  display: block;
+}
+
+.menu {
+  display: block;
+}
+
+.menu svg {
+  width: 16px;
+  height: 16px;
+}
+
+
+
+@media (min-width: 768px) {
+  .flex-card {
+    flex: 1 1 45%;
+    margin: 0 8px 40px 8px;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .nav ul {
+    flex-direction: row;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+
