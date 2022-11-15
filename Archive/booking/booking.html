@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="booking.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="wrapper">
+    <form class="form" onsubmit="login(event)">
+      <div>
+        <p class="parog">Your Name</p>
+        <input class="input" type="name" name="name" placeholder="Your Name">
+      </div>
+      <div>
+        <p class="parog">Email address</p>
+        <input class="input" type="email" name="email" placeholder="Email Address">
+      </div>
+      <div>
+        <p class="parog">Select Date</p>
+        <input class="input" id="date" type="date" name="date" placeholder="Select Date">
+      </div>
+      <div>
+        <p class="parog">Select Number</p>
+        <input class="input" type="number" name="number" placeholder="Select Number">
+      </div>
+
+      <div class="textarea-container">
+        <p class="parog">Message</p>
+        <textarea class="textarea" row="10" column="120"></textarea>
+      </div>
+      <button class="button" type="submit">Submit</button>
+
+        <a class="register" href="../register/Register.html">Register</a>
+
+    </form>
+
+
+  </main>
+  <script src="Index.js"></script>
+</body>
+
+</html>
